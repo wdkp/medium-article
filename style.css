@@ -1,0 +1,43 @@
+.banner {
+  background-image: url(https://hips.hearstapps.com/hmg-prod/images/lofoten-village-riene-viewed-from-surrounding-royalty-free-image-1620376677.?crop=1xw:1xh;center,top&resize=980:*);
+  background-size: cover;
+  padding: 120px 400px;
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+  width: 50px auto;
+  margin: 50px auto;
+}
+
+h1 {
+  font-size: 38px;
+}
+
+h2 {
+  font-size: 34px;
+}
+
+p {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+body {
+ background-color: azure;
+}
+div {
+  display: block;
+  border-top: 1px solid black;
+  border-right: 2px dotted black;
+  border-bottom: 1px solid black;
+  border-left: 2px dotted black;
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
